@@ -3,8 +3,11 @@
 #include "monte_carlo.h"
 
 int main() {
-    PiEstimator pi_estimator(1.0);
-    MonteCarlo monte_carlo(100000000);
+    const double radius = 1.0;
+    const int monte_carlo_runs = 100000000;
+
+    PiEstimator pi_estimator(radius);
+    MonteCarlo monte_carlo(monte_carlo_runs);
 
     monte_carlo.run(pi_estimator);
 

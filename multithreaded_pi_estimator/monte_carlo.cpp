@@ -1,4 +1,5 @@
 #include "monte_carlo.h"
+#include <chrono>
 
 MonteCarlo::MonteCarlo(const long& temp_num_of_runs): num_of_runs(temp_num_of_runs) {};
 
@@ -19,7 +20,9 @@ void MonteCarlo::run(PiEstimator& pi_estimator) {
 };
 
 double MonteCarlo::random_number_generator(const double& lower_limit, const double& upper_limit) {
-    static std::default_random_engine random_generator;
+
+    static unsigned seed = static_cast<unsigned>(std::chrono::system_clock::now().time_since_epoch().count());
+    static std::default_random_engine random_generator(seed);
     static std::uniform_real_distribution<float> distribution (lower_limit, upper_limit);
 
     return distribution(random_generator);

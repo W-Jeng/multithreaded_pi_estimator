@@ -11,16 +11,16 @@
       "RelativeMoniker": "D:0:0:{786AE994-0103-49F9-8C2E-B0809C7FBF98}|multithreaded_pi_estimator\\multithreaded_pi_estimator.vcxproj|solutionrelative:multithreaded_pi_estimator\\monte_carlo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{786AE994-0103-49F9-8C2E-B0809C7FBF98}|multithreaded_pi_estimator\\multithreaded_pi_estimator.vcxproj|C:\\Users\\User\\Desktop\\cpp\\multithreaded_pi_estimator\\multithreaded_pi_estimator\\monte_carlo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{786AE994-0103-49F9-8C2E-B0809C7FBF98}|multithreaded_pi_estimator\\multithreaded_pi_estimator.vcxproj|solutionrelative:multithreaded_pi_estimator\\monte_carlo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{786AE994-0103-49F9-8C2E-B0809C7FBF98}|multithreaded_pi_estimator\\multithreaded_pi_estimator.vcxproj|C:\\Users\\User\\Desktop\\cpp\\multithreaded_pi_estimator\\multithreaded_pi_estimator\\pi_estimator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{786AE994-0103-49F9-8C2E-B0809C7FBF98}|multithreaded_pi_estimator\\multithreaded_pi_estimator.vcxproj|solutionrelative:multithreaded_pi_estimator\\pi_estimator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{786AE994-0103-49F9-8C2E-B0809C7FBF98}|multithreaded_pi_estimator\\multithreaded_pi_estimator.vcxproj|C:\\Users\\User\\Desktop\\cpp\\multithreaded_pi_estimator\\multithreaded_pi_estimator\\pi_estimator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{786AE994-0103-49F9-8C2E-B0809C7FBF98}|multithreaded_pi_estimator\\multithreaded_pi_estimator.vcxproj|solutionrelative:multithreaded_pi_estimator\\pi_estimator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{786AE994-0103-49F9-8C2E-B0809C7FBF98}|multithreaded_pi_estimator\\multithreaded_pi_estimator.vcxproj|C:\\Users\\User\\Desktop\\cpp\\multithreaded_pi_estimator\\multithreaded_pi_estimator\\monte_carlo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{786AE994-0103-49F9-8C2E-B0809C7FBF98}|multithreaded_pi_estimator\\multithreaded_pi_estimator.vcxproj|solutionrelative:multithreaded_pi_estimator\\monte_carlo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,20 +34,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "pi_estimator.cpp",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\cpp\\multithreaded_pi_estimator\\multithreaded_pi_estimator\\pi_estimator.cpp",
               "RelativeDocumentMoniker": "multithreaded_pi_estimator\\pi_estimator.cpp",
               "ToolTip": "C:\\Users\\User\\Desktop\\cpp\\multithreaded_pi_estimator\\multithreaded_pi_estimator\\pi_estimator.cpp",
               "RelativeToolTip": "multithreaded_pi_estimator\\pi_estimator.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-02T01:52:26.797Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "pi_estimator.h",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\cpp\\multithreaded_pi_estimator\\multithreaded_pi_estimator\\pi_estimator.h",
               "RelativeDocumentMoniker": "multithreaded_pi_estimator\\pi_estimator.h",
@@ -60,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "monte_carlo.h",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\cpp\\multithreaded_pi_estimator\\multithreaded_pi_estimator\\monte_carlo.h",
               "RelativeDocumentMoniker": "multithreaded_pi_estimator\\monte_carlo.h",
@@ -79,7 +79,7 @@
               "RelativeDocumentMoniker": "multithreaded_pi_estimator\\monte_carlo.cpp",
               "ToolTip": "C:\\Users\\User\\Desktop\\cpp\\multithreaded_pi_estimator\\multithreaded_pi_estimator\\monte_carlo.cpp",
               "RelativeToolTip": "multithreaded_pi_estimator\\monte_carlo.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABPAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-02T01:49:34.659Z",
               "EditorCaption": ""
@@ -92,7 +92,7 @@
               "RelativeDocumentMoniker": "multithreaded_pi_estimator\\main.cpp",
               "ToolTip": "C:\\Users\\User\\Desktop\\cpp\\multithreaded_pi_estimator\\multithreaded_pi_estimator\\main.cpp",
               "RelativeToolTip": "multithreaded_pi_estimator\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-02T01:46:41.27Z",
               "EditorCaption": ""
