@@ -27,6 +27,12 @@
     <ClCompile Include="pi_estimator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="multithreading_monte_carlo.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="multithreading_monte_carlo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="monte_carlo.h">

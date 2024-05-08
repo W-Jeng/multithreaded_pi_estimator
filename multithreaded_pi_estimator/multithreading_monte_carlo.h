@@ -3,14 +3,15 @@
 #include<vector>
 #include<thread>
 #include "monte_carlo.h"
+#include "pi_estimator.h"
 
-class MultihreadingMonteCarlo{
+class MultithreadingMonteCarlo{
 public:
-    MultihreadingMonteCarlo(const long& temp_num_of_runs, const int& num_of_threads);
+    MultithreadingMonteCarlo(const long& temp_num_of_runs,const int& temp_num_of_threads);
 
 private:
-    const long& num_of_runs;
-    const int& num_of_threads;
-    std::vector<std::thread> thread_list;
-    std::vector<int> thread_runs;
+    const long num_of_runs;
+    const int num_of_threads;
+    std::vector<std::thread> threads;
+    std::vector<MonteCarlo> mc_vec;
 };

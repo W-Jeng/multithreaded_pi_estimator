@@ -131,6 +131,8 @@
     <ClCompile Include="monte_carlo.cpp" />
     <ClCompile Include="pi_estimator.cpp" />
     <ClCompile Include="pi_estimator.h" />
+    <ClCompile Include="multithreading_monte_carlo.cpp" />
+    <ClCompile Include="multithreading_monte_carlo.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="monte_carlo.h" />
