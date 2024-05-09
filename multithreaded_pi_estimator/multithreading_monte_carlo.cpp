@@ -38,6 +38,6 @@ MultithreadingMonteCarlo::MultithreadingMonteCarlo(const long& temp_num_of_runs,
         // std::cout << "mem address: " << pi_estimation_list[i] << ", mem val: " << *pi_estimation_list[i] << "\n";
     }
     pi_estimation = pi_estimation/pi_estimation_list.size();
-    std::cout << "Multithreaded pi estimation: " << pi_estimation << "\n";
+    std::cout << "Multithreaded Pi Estimation: " << pi_estimation << "\n";
 
 };

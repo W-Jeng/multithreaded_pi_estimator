@@ -18,7 +18,7 @@ int main() {
     std::chrono::duration<double> runtime1 = end_time1 - start_time1;
     std::cout << "Single threaded Pi Estimation: " << pi_estimation << std::endl;;
     std::cout << "Single threaded runtime: " << runtime1.count() << " seconds\n";
-
+    
     
     auto start_time2 = std::chrono::high_resolution_clock::now();
     MultithreadingMonteCarlo mmc(MONTE_CARLO_RUNS,THREADS);
